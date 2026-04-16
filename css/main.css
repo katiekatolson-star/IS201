@@ -109,3 +109,33 @@ body {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+.header {
+    position: relative;
+}
+
+.header {
+    position: relative;
+}
+
+/* right-side link box */
+.side-link {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: right;
+}
+
+.side-link a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.side-link a:hover {
+    text-decoration: underline;
+}
